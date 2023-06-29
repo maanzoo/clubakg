@@ -20,6 +20,7 @@ function App() {
       <h1>CLUB AKG</h1>
       <div className="main">
         <PlayerCard
+          className="playercard"
           name={<h1 id="cynapsxnick"></h1>}
           playerrn={<p id="cynapsxrn"></p>}
           url="https://avatars.cloudflare.steamstatic.com/58972e4b311bc6939e8fbbd7fb72ecafbcb131d1_full.jpg"
@@ -31,6 +32,7 @@ function App() {
           playerinstagram="https://www.instagram.com/denizerturel/"
         />
         <PlayerCard
+          className="playercard"
           name={<h1 id="vlonenick"></h1>}
           playerrn={<p id="vlonern"></p>}
           url="https://avatars.cloudflare.steamstatic.com/e1e8687993f379a88fbec69f96a931cad53374b4_full.jpg"
@@ -42,6 +44,7 @@ function App() {
           playerinstagram="https://www.instagram.com/kayracansin/"
         />
         <PlayerCard
+          className="playercard"
           name={<h1 id="beqqoznick"></h1>}
           playerrn={<p id="beqqozrn"></p>}
           url="https://avatars.cloudflare.steamstatic.com/9ae2808b48833174b889caf21c280ab03c03603e_full.jpg"
@@ -53,6 +56,7 @@ function App() {
           playerinstagram="https://www.instagram.com/bekir_karatepee/"
         />
         <PlayerCard
+          className="playercard"
           name={<h1 id="awesomenick"></h1>}
           playerrn={<p id="awesomern"></p>}
           url="https://avatars.cloudflare.steamstatic.com/d3f930e6892b8e0b7feaa0e70a252cba8ea1b0da_full.jpg"
@@ -64,6 +68,7 @@ function App() {
           playerinstagram="https://www.instagram.com/asmcetin/"
         />
         <PlayerCard
+          className="playercard"
           name={<h1 id="kuzguninick"></h1>}
           playerrn={<p id="kuzgunirn"></p>}
           url="https://avatars.cloudflare.steamstatic.com/72dc214de77394aa0ff63e76e9748facbf1c15ef_full.jpg"
@@ -75,6 +80,7 @@ function App() {
           playerinstagram="https://www.instagram.com/kodalomerr/"
         />
         <PlayerCard
+          className="playercard"
           name={<h1 id="maanzonick"></h1>}
           playerrn={<p id="maanzorn"></p>}
           url="https://avatars.cloudflare.steamstatic.com/1fb9332866519f29d27704870659213caaa5c459_full.jpg"

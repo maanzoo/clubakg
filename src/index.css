@@ -13,8 +13,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
   font-weight: 400;
+}
+
+.playercard {
+  width: 25%;
+}
+
+@media (max-width: 800px) {
+  .playercard {
+    width: 100%;
+  }
 }
